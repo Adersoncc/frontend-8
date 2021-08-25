@@ -1,0 +1,83 @@
+/*====  RESET BROWSER  ======= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*==== IMPORT FONT ======*/
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap);
+
+body {
+  background-color: #131313;
+}
+
+/*======CABEÇALHO======*/
+
+.header {
+  width: 100%;
+  display: flex;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+h1 {
+  width: 100%;
+  color: rgb(255, 255, 255);
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+}
+
+form {
+  width: 100%;
+  
+}
+
+input {
+  width: auto;
+}
+
+.media-picture {
+  height: auto;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+}
+
+.review-score {
+  color: white;
+  background-color: #e6bd09;
+  padding: 12px;
+  margin-bottom: 0.8rem;
+}
+
+h2 {
+  color: steelblue;
+  margin-top: 0.8rem;
+  padding-left: 2rem;
+}
+
+p {
+  color: #bdbdbd;
+  font-family: Roboto, sans-serif;
+  padding: 0.8rem;
+  text-align: justify;
+}
+
+a {
+  color: yellow;
+  padding-bottom: 2rem;
+}
+
+.playe-video {
+  width: 100%;
+  padding: 1rem 0rem 2rem 2rem;
+}
+
+iframe {
+  padding: 2rem;
+}
